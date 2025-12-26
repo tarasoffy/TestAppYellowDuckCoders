@@ -2,7 +2,7 @@ import React from 'react'
 import { StyleSheet, Text, View, TextInput, TextInputProps } from 'react-native'
 
 type TProps = { 
-  label: string
+  label: string 
   errorText?: string | null
 } & TextInputProps
 
